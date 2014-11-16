@@ -14,8 +14,10 @@ julia> Pkg.clone("git://github.com/harmeling/Suguar.jl.git/")
 
 ## Functions
 
-To get a quick impression of a matrix it is often good to get a visual impression of it.  This is what `imagesc` does.  It converts it to an Image that is shown using the excellent `Images.jl` package.
+To get a quick impression of a matrix it is often good to get a visual
+impression of it.  This is what `imagesc` does.  It converts it to an
+Image that is shown using the excellent `Images.jl` package.  E.g.
 
 ```
-imagesc
+imagesc(randn(100,120))
 ```
