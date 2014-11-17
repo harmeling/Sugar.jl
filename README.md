@@ -9,7 +9,7 @@ This package provides a couple of convenience functions that I found useful to h
 To install this package you run
 
 ```
-julia> Pkg.clone("git://github.com/harmeling/Suguar.jl.git/")
+julia> Pkg.clone("git://github.com/harmeling/Sugar.jl.git/")
 ```
 
 ## Functions
