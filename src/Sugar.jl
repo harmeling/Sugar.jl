@@ -6,7 +6,7 @@ module Sugar
 using Color, Images, Gadfly, DataFrames
 
 import Gadfly.plot
-export imagesc, plot
+export imagesc, plot, cmblues, cmoranges
 
 ## syntactic sugar for Images.jl
 using Color, Images
